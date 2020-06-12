@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style.css">
+    <title>Eddy's Homepage</title>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <a class="navbar-brand" href="index.html">Eddy Yang</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="portfolio.html" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Portfolio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="hardware.html">Hardware Projects</a>
+                        <a class="dropdown-item active" href="software.html">Software Projects</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" tabindex="-1">Contacts</a>
+                </li>
+            </ul>
+            <!--
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                -->
+
+        </div>
+    </nav>
+
+    <!--Hero photo-->
+    <div class="banner">
+        <img src="assets/img/code.jpg" class="d-block w-100" alt="Building" width="100%" height="725px">
+        <div class="caption">
+            <a href="#softprojects">Software Projects</a>
+        </div>
+    </div>
+
+
+
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item mt-4" data-ride="carousel"
+        data-interval="3000">
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#multi-item-example" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#multi-item-example" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+            <li data-target="#multi-item-example" data-slide-to="1"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" id="softprojects" role="listbox">
+
+            <!--First slide-->
+            <div class="carousel-item active">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(48).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3" style="float:left">
+                    <div class="card mb-2">
+                        <img class="card-img-top"
+                            src="https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content.</p>
+                            <a class="btn btn-primary">Button</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!--/.Second slide-->
+
+
+
+        </div>
+        <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <!--Boot Strap scripts-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</body>
+
+</html>
