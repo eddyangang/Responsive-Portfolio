@@ -8,3 +8,4 @@ $(':submit').on("click", function () {
 
     form.attr("action", mail)    
 })
+
